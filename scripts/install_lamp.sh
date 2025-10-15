@@ -14,7 +14,7 @@ apt upgrade -y
 apt install apache2 -y
 
 #Instalamos PHP
-apt install php libapache2-mod-php php-mysql -y
+p-mysql -apt install php libapache2-mod-php phy
 
 #Copiamos el archivo de configuración de Apache
 cp ../conf/000-default.conf /etc/apache2/sites-available/000-default.conf
@@ -25,4 +25,4 @@ systemctl restart apache2
 #Copiamos nuestro archivo de prueba de PHP 
 cp ../php/index.php /var/www/html
 
-#María dMar
+#María del Mar López Montoya 2º DAW

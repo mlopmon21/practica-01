@@ -80,7 +80,7 @@ Por último usamos el siguiente comando que instala y configura la pila LAMP (Li
 sudo ./install_lamp.sh
 ```
 
-![Imagen]() 
+![Imagen](/home/ubuntu/practica1/img/1.png) 
 ## Ejecución
 Abrimos una nueva terminar bash en el mismo intérprete, y ponemos el siguiente comando.
 

@@ -80,7 +80,7 @@ Por último usamos el siguiente comando que instala y configura la pila LAMP (Li
 sudo ./install_lamp.sh
 ```
 
-![Imagen](practica1/img/1.png) 
+![Imagen]() 
 ## Ejecución
 Abrimos una nueva terminar bash en el mismo intérprete, y ponemos el siguiente comando.
 
@@ -91,7 +91,7 @@ sudo bash ./provision.sh
 ## Verificación 
 Abrimos el navegador ponemos la Dirección IPv4 pública de nuestra estancia con ``` http://Dirección IPv4 pública```. Y deberiamos ver la salida de index.php. En nuestro caso vemos la página de información php ya que nuestro archivo incluye phpinfo().  
 
-![Imagen](practica1/img/2.png)
+![Imagen]()
   
     
 ##### María del Mar López Montoya | 2ºDAW

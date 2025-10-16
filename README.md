@@ -1,4 +1,4 @@
-# Práctica-01
+# Práctica 1
 
 ## Configuración manual de la pila LAMP
 En esta guía se describe, paso a paso, cómo instalar y configurar la pila LAMP en Debian/Ubuntu. Incluye con detalle las medidas de seguridad de seguridad que requieren interacción(especialmente en MySQL) y ofrece comandos ajustados e estos sistemas.
@@ -76,8 +76,11 @@ cp ../php/index.php /var/www/html
 ```
 ### PASO 10 
 Por último usamos el siguiente comando que instala y configura la pila LAMP (Linux + Apache + MySQL/MariaDB + PHP).  
+```
+sudo ./install_lamp.sh
+```
 
-![Como en está imagen](practica-01/img/2.png)  
+![Imagen](practica1/img/1.png) 
 ## Ejecución
 Abrimos una nueva terminar bash en el mismo intérprete, y ponemos el siguiente comando.
 
@@ -88,7 +91,7 @@ sudo bash ./provision.sh
 ## Verificación 
 Abrimos el navegador ponemos la Dirección IPv4 pública de nuestra estancia con ``` http://Dirección IPv4 pública```. Y deberiamos ver la salida de index.php. En nuestro caso vemos la página de información php ya que nuestro archivo incluye phpinfo().  
 
-![Como en está imagen](practica-01/img/1.png)  
+![Imagen](practica1/img/2.png)
   
     
 ##### María del Mar López Montoya | 2ºDAW
